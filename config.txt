@@ -1,0 +1,5 @@
+elevi.txt
+profesori.txt
+lectori.txt
+manageri.txt
+id.txt

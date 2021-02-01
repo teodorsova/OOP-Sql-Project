@@ -1,0 +1,5 @@
+elevi
+3
+id integer 1000 0 
+nume text 128 0 
+clasa text 50 '1000' 

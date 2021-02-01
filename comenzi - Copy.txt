@@ -1,0 +1,26 @@
+CREATE TABLE students ((id, integer, 1000, 0), (nume, text, 128, ''), (grupa, text,50,'1000'))
+CREATE TABLE elevi ((id, integer, 1000, 0), (nume, text, 128, ''), (clasa, text,50,'1000'))
+CREATE TABLE profesori ((id, integer, 1000, 0), (nume, text, 128, ''), (prenume, text, 128, ''), (specializarea, text,50,''))
+CREATE TABLE lectori ((id, integer, 1000, 0), (nume, text, 128, ''), (prenume, text, 128, ''), (specializarea, text,50,''))
+CREATE TABLE lectori ((id, integer, 6999, 0), (nume, text, 128, ''), (prenume, text, 128, ''), (specializarea, text,50,''))
+CREATE TABLE manageri ((id, integer, 1000, 0), (nume, text, 128, ''), (prenume, text, 128, ''), (specializarea, text,50,''))
+INSERT INTO students VALUES (1,'Andreea','1001')
+INSERT INTO students VALUES (2,'Teo','1001')
+INSERT INTO students VALUES (3,'RTJ','1003')
+INSERT INTO students VALUES (4,'Andrei','1006')
+INSERT INTO students VALUES (5,'Alex','1009')
+INSERT INTO students VALUES (6,'Ioana','1005')
+INSERT INTO students VALUES (7,'Ana','1001')
+INSERT INTO students VALUES (8,'Matei','1000')
+INSERT INTO lectori VALUES (1,'Gigel', 'Costel','POO')
+INSERT INTO lectori VALUES (2,'Andrei', 'Alex','POO')
+INSERT INTO lectori VALUES (3,'George', 'Popescu','POO')
+INSERT INTO lectori VALUES (4,'Ana-Maria', 'Ionescu','POO')
+INSERT INTO lectori VALUES (5,'Constantin', 'Iordache','POO')
+INSERT INTO lectori VALUES (6,'Marian', 'Filip','POO')
+INSERT INTO lectori VALUES (7,'Izabela', 'Ioana','ATP')
+SELECT (nume) FROM students WHERE id > 5
+SELECT ALL FROM students WHERE id = 1
+SELECT ALL FROM students WHERE nume = Andreea
+IMPORT elevi elevvi.csv
+IMPORT elevi elevi.csv

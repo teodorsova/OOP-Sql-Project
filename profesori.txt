@@ -1,0 +1,6 @@
+profesori
+4
+id integer 1000 0 
+nume text 128 0 
+prenume text 128 0 
+specializarea text 50 0 
