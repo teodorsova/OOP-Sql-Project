@@ -16,7 +16,9 @@ DISPLAY TABLE students //NOT a select. Displays the table properties (columns an
 INSERT INTO students VALUES (1,'John','1001')
 
 SELECT (name) FROM students WHERE id > 5
+
 SELECT ALL FROM students WHERE id = 1
+
 SELECT ALL FROM students WHERE name = John
 
 UPDATE students SET name = "Andrew" WHERE name = "John"
