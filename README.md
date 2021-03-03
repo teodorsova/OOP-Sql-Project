@@ -27,3 +27,5 @@ DELETE FROM students WHERE name = "Andrew"
 
 IMPORT elevi elevi.csv //Comma separated value file with data for an already existing table
 
+*********************************************************************************************************
+The program can also run command from a command file called "comenzi.txt" (the program will ask at start)
