@@ -3,9 +3,9 @@
 This is a very basic remake of SQL Lite made in C++ using OOP concepts. 
 The project was part of the university requirements at the C++ OOP seminar/labs.
 
-////////////////////////////////////////////////////////
-// COMMAND EXAMPLES THAT CAN BE USED WITH THIS PROGRAM//
-////////////////////////////////////////////////////////
+***************************************************
+COMMAND EXAMPLES THAT CAN BE USED WITH THIS PROGRAM
+***************************************************
 
 CREATE TABLE students ((id, integer, 1000, 0), (name, text, 128, ''), (group, text,50,'1000'))
 
